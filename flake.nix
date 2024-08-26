@@ -2,7 +2,7 @@
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
     haskell-flake.url = "github:srid/haskell-flake";
-    nixpkgs.url = "github:nixos/nixpkgs/43e3b6af08f29c4447a6073e3d5b86a4f45dd420";
+    nixpkgs.url = "github:nixos/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c";
     systems.url = "github:nix-systems/default";
   };
   outputs = inputs @ {
@@ -23,7 +23,7 @@
         ...
       }: {
         haskellProjects.default = {
-          basePackages = pkgs.haskell.packages.ghc8107;
+          basePackages = pkgs.haskell.packages.ghc92;
           packages = {
 
           };

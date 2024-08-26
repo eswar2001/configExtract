@@ -75,13 +75,13 @@ common common-options
         bytestring
         , containers
         , filepath
-        , ghc ^>= 8.10.7
+        , ghc
         , unordered-containers
         , aeson
         , directory
         , extra
         , aeson-pretty
-        , base ^>=4.14.3.0
+        , base
         , text
         , base64-bytestring
         , optparse-applicative
@@ -93,6 +93,7 @@ common common-options
         , universum
         , data-default
         , streamly
+        , streamly-core
 
 library
     -- Import common warning flags.
